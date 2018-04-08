@@ -4,4 +4,15 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  background: green;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container .canvas {
+  background: white;
+  border: 5px solid black;
 }
